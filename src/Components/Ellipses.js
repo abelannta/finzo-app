@@ -5,17 +5,17 @@ function Ellipses({ borderColor, scale }) {
     <div className={`relative w-96 aspect-square ${scale}`}>
       <div className="flex items-center w-full">
         <div
-          className={`rounded-full w-[736px] aspect-square ${borderColor} border-2 absolute opacity-70`}
+          className={`rounded-full w-[736px] aspect-square ${borderColor} border-2 absolute`}
         ></div>
       </div>
       <div className="flex items-center w-full">
         <div
-          className={`rounded-full w-[542px] aspect-square ${borderColor} border-2 absolute opacity-70`}
+          className={`rounded-full w-[542px] aspect-square ${borderColor} border-2 absolute`}
         ></div>
       </div>
       <div className="flex items-center w-full">
         <div
-          className={`rounded-full w-[349px] aspect-square ${borderColor} border-2 absolute opacity-70`}
+          className={`rounded-full w-[349px] aspect-square ${borderColor} border-2 absolute`}
         ></div>
       </div>
     </div>

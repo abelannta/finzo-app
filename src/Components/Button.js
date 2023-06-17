@@ -2,7 +2,7 @@ import React from "react";
 
 export function ButtonLightSmall({ text, arrow }) {
   return (
-    <button className="px-8 py-2.5 border border-border rounded-xl w-fit">
+    <button className="btn px-8 py-2.5 bg-white text-primary border border-border rounded-xl w-fit">
       {text}
     </button>
   );
@@ -10,7 +10,7 @@ export function ButtonLightSmall({ text, arrow }) {
 
 export function ButtonLightSmallFull({ text, arrow }) {
   return (
-    <button className="px-8 py-2.5 text-xs border border-border rounded-xl w-full">
+    <button className="btn px-8 py-2.5 bg-white text-primary text-xs border border-border rounded-xl w-full">
       {text}
     </button>
   );
@@ -18,7 +18,15 @@ export function ButtonLightSmallFull({ text, arrow }) {
 
 export function ButtonLightBig({ text, arrow }) {
   return (
-    <button className="px-8 py-4 border border-border rounded-xl w-fit">
+    <button className="btn px-8 py-4 bg-white text-primary border border-border rounded-xl w-fit">
+      {text}
+    </button>
+  );
+}
+
+export function ButtonLightBigFull({ text, arrow }) {
+  return (
+    <button className="btn px-8 py-4 bg-white text-primary border border-border rounded-xl w-full">
       {text}
     </button>
   );
@@ -26,7 +34,7 @@ export function ButtonLightBig({ text, arrow }) {
 
 export function ButtonPrimarySmall({ text, arrow }) {
   return (
-    <button className="px-8 py-2.5 bg-primary rounded-xl text-white w-fit">
+    <button className="btn px-8 py-2.5 bg-primary rounded-xl text-white w-fit">
       {text}
     </button>
   );
@@ -34,7 +42,7 @@ export function ButtonPrimarySmall({ text, arrow }) {
 
 export function ButtonPrimarySmallFull({ text, arrow }) {
   return (
-    <button className="px-8 py-2.5 text-xs bg-primary rounded-xl text-white w-full">
+    <button className="btn px-8 py-2.5 text-xs bg-primary rounded-xl text-white w-full">
       {text}
     </button>
   );
@@ -42,7 +50,23 @@ export function ButtonPrimarySmallFull({ text, arrow }) {
 
 export function ButtonPrimaryBig({ text, arrow }) {
   return (
-    <button className="px-8 py-4 bg-primary rounded-xl text-white w-fit">
+    <button className="btn px-8 py-4 bg-primary rounded-xl text-white w-fit">
+      {text}
+    </button>
+  );
+}
+
+export function ButtonPrimaryBigFull({ text, arrow }) {
+  return (
+    <button className="btn px-8 py-4 bg-primary rounded-xl text-white w-fit">
+      {text}
+    </button>
+  );
+}
+
+export function ButtonSecondarySmall({ text, arrow }) {
+  return (
+    <button className="btn px-8 py-2.5 bg-secondary text-primary rounded-xl w-fit">
       {text}
     </button>
   );

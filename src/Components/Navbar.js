@@ -4,7 +4,7 @@ import ButtonLight, { ButtonLightSmall, ButtonPrimarySmall } from "./Button";
 
 function Navbar() {
   return (
-    <div className="w-full h-24 border border-b-border">
+    <div className="w-full h-24 bg-white border border-b-border fixed z-50">
       <div className="container h-full">
         <div className="flex justify-between items-center h-full">
           <div className="flex items-center">

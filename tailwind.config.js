@@ -14,7 +14,13 @@ module.exports = {
         center: true,
         padding: "2rem",
       },
+      listStyleImage: {
+        checkmark: 'url("/checkmark.svg")',
+      },
     },
   },
-  plugins: [],
+  daisyui: {
+    themes: ["light"],
+  },
+  plugins: [require("daisyui")],
 };
