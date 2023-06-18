@@ -15,7 +15,7 @@ function Navbar() {
   return (
     <>
       {banner ? (
-        <div className="w-full flex items-center justify-between px-8 h-11 bg-[#CCE8C9]">
+        <div className="w-full flex items-center justify-between px-8 h-11 bg-[#CCE8C9] fixed">
           <div></div>
           <div className="flex gap-1 font-medium text-sm text-[#1B4B4B]">
             <h5>
