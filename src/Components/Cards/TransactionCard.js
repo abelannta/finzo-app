@@ -1,13 +1,12 @@
 import React from "react";
-import mainImg from "../mainImg.png";
 import { BsFillCalendarFill } from "react-icons/bs";
 
 function TransactionCard() {
   return (
-    <div className="rounded-xl bg-white w-[400px] p-6 shadow-md">
+    <div className="rounded-xl bg-white w-64 md:w-[400px] p-4 md:p-6 shadow-md">
       <label className="text-[8px] text-[#8D98AF] uppercase">Amount</label>
-      <div className="flex rounded-xl border border-border w-full py-2 px-3 gap-2">
-        <select className="flex-none w-[76px]">
+      <div className="flex rounded-xl border border-border w-full py-2 px-3 gap-2 overflow-hidden">
+        <select className="text-xs md:text-base flex-none w-12 md:w-[76px]">
           <option>USD</option>
           <option>IDN</option>
           <option>SGP</option>
@@ -32,7 +31,7 @@ function TransactionCard() {
             type="text"
             value="2.8% + $0.40"
             disabled
-            className="px-2 border border-border rounded-xl h-10"
+            className="px-2 border border-border rounded-xl w-full h-10"
           />
         </div>
       </div>

@@ -1,6 +1,9 @@
-import logo from "../Logo.svg";
+import logo from "../assets/Logo.svg";
 import React from "react";
-import ButtonLight, { ButtonLightSmall, ButtonPrimarySmall } from "./Button";
+import ButtonLight, {
+  ButtonLightSmall,
+  ButtonPrimarySmall,
+} from "./Common/Button";
 
 function Navbar() {
   return (
@@ -9,10 +12,16 @@ function Navbar() {
         <div className="flex justify-between items-center h-full">
           <div className="flex items-center">
             <img src={logo} className="w-[127px] h-[44px] mr-20" />
-            <ul className="flex flex-row gap-14">
-              <li>Personal</li>
-              <li>Features</li>
-              <li>Pricing</li>
+            <ul className="flex flex-row">
+              <li className="btn btn-ghost text-base font-normal capitalize">
+                Personal
+              </li>
+              <li className="btn btn-ghost text-base font-normal capitalize">
+                Features
+              </li>
+              <li className="btn btn-ghost text-base font-normal capitalize">
+                Pricing
+              </li>
             </ul>
           </div>
           <div className="flex items-center">

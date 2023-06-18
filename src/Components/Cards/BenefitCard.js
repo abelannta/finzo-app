@@ -7,8 +7,10 @@ function BenefitCard({ title, content, icon }) {
         {icon}
       </div>
       <div className="flex flex-col gap-3">
-        <h4 className="text-2xl leading-9 font-medium">{title}</h4>
-        <p className="text-xl leading-7 text-paragraph">{content}</p>
+        <h4 className="text-lg md:text-2xl leading-9 font-medium">{title}</h4>
+        <p className="text-base md:text-xl leading-7 text-paragraph">
+          {content}
+        </p>
       </div>
     </div>
   );
