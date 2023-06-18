@@ -38,7 +38,7 @@ function Currency() {
             Create an account for your chosen currency in seconds. Get great
             prices with limit and stop orders
           </p>
-          <ButtonPrimaryBig text="Learn More" />
+          <ButtonPrimaryBig text="Learn More" arrow={true} />
         </div>
       </div>
     </div>

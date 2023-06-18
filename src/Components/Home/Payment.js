@@ -37,7 +37,7 @@ function Payment() {
             Moving money should never take more than a few taps. Transfers are
             always free between friends.
           </p>
-          <ButtonPrimaryBig text="Learn More" />
+          <ButtonPrimaryBig text="Learn More" arrow={true} />
         </div>
       </div>
     </div>

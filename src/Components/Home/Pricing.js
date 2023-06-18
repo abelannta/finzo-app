@@ -41,7 +41,7 @@ function Pricing() {
           </div>
           <div className="flex-1 md:px-12 px-10 lg:py-0 pt-12">
             <p className="text-sm uppercase text-[#FFFFFFA3] mb-5">Features</p>
-            <ul className="flex flex-col list-disc list-outside gap-5 text-xs md:text-base leading-4 md:leading-6">
+            <ul className="flex flex-col list-disc list-outside list-image-checkmark gap-5 text-xs md:text-base leading-4 md:leading-6">
               <li>No payments back-office needed</li>
               <li>Faster implementation and global roll-out</li>
               <li>48 hour support response time</li>

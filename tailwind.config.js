@@ -15,7 +15,7 @@ module.exports = {
         padding: "2rem",
       },
       listStyleImage: {
-        checkmark: 'url("/checkmark.svg")',
+        checkmark: 'url("/public/checkmark.svg")',
       },
     },
   },

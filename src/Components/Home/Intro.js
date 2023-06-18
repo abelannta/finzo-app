@@ -24,7 +24,7 @@ function Intro() {
           </div>
           <div className="flex gap-4 mb-14">
             <ButtonPrimaryBig text="Get Started Now" />
-            <ButtonLightBig text="Learn More" />
+            <ButtonLightBig text="Learn More" arrow={true} />
           </div>
           <div>
             <p className="uppercase text-[#8793AB] text-xs md:text-base mb-8">
