@@ -9,7 +9,7 @@ import TransactionCard from "../Cards/TransactionCard";
 
 function Intro() {
   return (
-    <div className="py-28 pt-40 px-0 md:px-10">
+    <div className="py-28 pt-52 px-0 md:px-10">
       <div className="flex flex-col lg:flex-row items-center gap-12">
         <div className="flex-1">
           <div className="mb-10">

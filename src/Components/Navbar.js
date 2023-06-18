@@ -15,7 +15,7 @@ function Navbar() {
   return (
     <>
       {banner ? (
-        <div className="w-full flex items-center justify-between px-8 h-11 bg-[#CCE8C9] fixed">
+        <div className="hidden w-full md:flex items-center justify-between px-8 h-11 bg-[#CCE8C9] fixed z-50">
           <div></div>
           <div className="flex gap-1 font-medium text-sm text-[#1B4B4B]">
             <h5>
@@ -32,7 +32,11 @@ function Navbar() {
           />
         </div>
       ) : null}
-      <div className="w-full h-24 bg-white border border-b-border fixed z-50">
+      <div
+        className={`w-full h-24 bg-white border border-b-border fixed z-40 ${
+          banner ? "md:top-11" : ""
+        }`}
+      >
         <div className="container h-full">
           <div className="flex justify-between items-center h-full">
             <div className="drawer block lg:hidden">
