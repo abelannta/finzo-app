@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "AeonikBold";
+  src: local("AeonikBold"), url("./fonts/Aeonik-Bold.otf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "AeonikMedium";
+  src: local("AeonikMedium"),
+    url("./fonts/Aeonik-Medium.otf") format("truetype");
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: "AeonikRegular";
+  src: local("AeonikRegular"),
+    url("./fonts/Aeonik-Regular.otf") format("truetype");
+  font-weight: normal;
+}
