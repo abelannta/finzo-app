@@ -120,7 +120,7 @@ function Footer() {
         </div>
         <div className="divide-y">
           <div className="flex justify-between items-center pb-8">
-            <div>EN</div>
+            <div></div>
             <div className="flex gap-6 items-center">
               <p className="text-xs md:text-sm">Follow us on</p>
               <div className="flex text-2xl md:text-3xl gap-3">

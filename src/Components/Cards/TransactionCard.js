@@ -1,9 +1,15 @@
 import React from "react";
 import { BsFillCalendarFill } from "react-icons/bs";
+import { motion } from "framer-motion";
 
 function TransactionCard() {
   return (
-    <div className="rounded-xl bg-white w-64 md:w-[400px] p-4 md:p-6 shadow-md">
+    <motion.div
+      drag={true}
+      dragSnapToOrigin={true}
+      whileHover={{ scale: 1.025 }}
+      className="rounded-xl bg-white w-64 md:w-[400px] p-4 md:p-6 shadow-md cursor-grab"
+    >
       <label className="text-[8px] text-[#8D98AF] uppercase">Amount</label>
       <div className="flex rounded-xl border border-border w-full py-2 px-3 gap-2 overflow-hidden">
         <select className="text-xs md:text-base flex-none w-12 md:w-[76px]">
@@ -49,7 +55,7 @@ function TransactionCard() {
           Send
         </button>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

@@ -46,9 +46,6 @@ function Intro() {
             <div className="absolute -bottom-16 -left-28 z-2">
               <TransactionCard />
             </div>
-            <div className="absolute -bottom-[72px] -left-28 -z-10">
-              <div className="rounded-xl bg-secondary w-[400px] p-6"></div>
-            </div>
           </div>
         </div>
       </div>

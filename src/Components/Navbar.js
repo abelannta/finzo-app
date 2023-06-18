@@ -67,7 +67,6 @@ function Navbar() {
               </ul>
             </div>
             <div className="flex items-center">
-              <div className="hidden lg:block mr-10">EN</div>
               <div className="flex gap-3">
                 <ButtonLightSmall text="Login" />
                 <ButtonPrimarySmall text="Sign Up" />

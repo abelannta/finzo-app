@@ -1,9 +1,15 @@
 import React from "react";
 import { ButtonLightSmallFull, ButtonPrimarySmallFull } from "../Common/Button";
+import { motion } from "framer-motion";
 
 function TransferNotification() {
   return (
-    <div className="bg-white py-3 md:py-5 rounded-xl w-52 md:w-96 shadow-lg">
+    <motion.div
+      drag={true}
+      dragSnapToOrigin={true}
+      whileHover={{ scale: 1.025 }}
+      className="bg-white py-3 md:py-5 rounded-xl w-52 md:w-96 shadow-lg cursor-grab"
+    >
       <div className="flex justify-between items-center px-3 md:px-6">
         <div className="gap-2">
           <h3 className="font-medium text-base md:text-2xl">€750.00</h3>
@@ -29,7 +35,7 @@ function TransferNotification() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
